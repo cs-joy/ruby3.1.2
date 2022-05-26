@@ -27,3 +27,19 @@ puts hi 'chris'
 puts hi
 puts hi("willams")
 puts hi('willams')
+
+# Evolving Into a Greeter
+class Greeter
+    def initialize(name="Ruby")
+        @name = name
+    end
+
+    def say_hi
+        puts("Hi, #{@name}!")
+    end
+
+    def say_bye
+        puts("Bye #{@name}, come back soon")
+    end
+
+end
