@@ -53,3 +53,21 @@ if __FILE__ == $0
     mg.say_hi
     mg.say_bye
 end
+
+
+=begin
+    
+Hello World!
+Goodbye World. Come back soon!
+Hello Sanji!
+Goodbye Sanji. Come back soon!
+Hello Sanju!
+Hello SJ!
+Hello ZS!
+Hello JS!
+Hello RJ!
+Goodbye Sanju, SJ, ZS, JS, RJ. Come back soon!
+...
+...
+    
+=end
