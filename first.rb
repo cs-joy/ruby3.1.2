@@ -51,3 +51,14 @@ obj = Greeter.new("Sanju")
 # Access to the obj
 obj.say_hi
 obj.say_bye()
+
+
+# Under the Object’s Skin
+var = obj.respond_to?("name") # false - because it doesn’t know `name`
+puts var
+
+var = obj.respond_to?("say_hi") # true - because  it knows `say_hi`
+puts var
+
+var = obj.respond_to?("to_s") # true by default- `to_s` meaning convert something to a string, a method that’s defined by default for every object
+puts var
