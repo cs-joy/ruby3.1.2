@@ -28,6 +28,7 @@ puts hi
 puts hi("willams")
 puts hi('willams')
 
+
 # Evolving Into a Greeter
 class Greeter
     def initialize(name="Ruby")
@@ -43,3 +44,10 @@ class Greeter
     end
 
 end
+
+# Create an object
+obj = Greeter.new("Sanju")
+
+# Access to the obj
+obj.say_hi
+obj.say_bye()
