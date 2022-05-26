@@ -52,8 +52,17 @@ obj = Greeter.new("Sanju")
 obj.say_hi
 obj.say_bye()
 
-
 # Under the Object’s Skin
+puts "------------------"
+var = Greeter.instance_methods
+puts var
+puts "------------------"
+
+# If we want to just list methods defined for Greeter we can tell it to not include ancestors by passing
+# it the parameter false, meaning we don’t want methods defined by ancestors.
+var = Greeter.instance_methods(false)
+puts var
+puts "-------------------"
 var = obj.respond_to?("name") # false - because it doesn’t know `name`
 puts var
 
