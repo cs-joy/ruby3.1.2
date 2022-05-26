@@ -105,3 +105,6 @@ obj2.name="sz"
 
 obj2.say_hi
 obj2.say_bye
+
+# Greeting Anything and Everything, MegaGreeter Neglects None!
+# Check `ruby20min` folder
